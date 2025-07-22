@@ -1,11 +1,11 @@
 import { GoogleGenAI, Type, Chat } from "@google/genai";
 import { disabilityData } from '../data/disabilityRates';
 
-if (!process.env.API_KEY) {
+if (!import.meta.env.VITE_API_KEY) {
   console.error("Clé API manquante. Veuillez définir la variable d'environnement API_KEY.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY! });
 
 export const getInjuryInformation = async (injuryName: string): Promise<string> => {
   const prompt = `
