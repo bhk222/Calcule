@@ -1,0 +1,7 @@
+
+{
+  "name": "Calculateur & Guide sur les Accidents du Travail",
+  "description": "Une application experte 3-en-1 : 1. Estimer le taux d'incapacité (IPP) avec un assistant IA. 2. Obtenir des informations sur la législation algérienne via un guide conversationnel. 3. Consulter une base de données détaillée sur les maladies professionnelles. Cet outil est à titre informatif et ne remplace pas une expertise médicale ou légale.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
